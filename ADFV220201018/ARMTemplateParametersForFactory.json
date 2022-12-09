@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFV220201018"
+		},
+		"AzureSqlDatabase_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=brownbag2020.database.windows.net;Initial Catalog=IndependenceWorks;User ID=serveradmin142020"
+		},
+		"AzureKeyVaultLinkedService_properties_typeProperties_baseUrl": {
+			"value": "https://Session20201018.vault.azure.net/"
+		}
+	}
+}
