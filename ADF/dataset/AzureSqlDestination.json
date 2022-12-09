@@ -1,0 +1,27 @@
+{
+	"name": "AzureSqlDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TeamID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TeamName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "IPLTeamsDest"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "AzureSqlSrcTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TeamID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TeamName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "IPLTeams"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
