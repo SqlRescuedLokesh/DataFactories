@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"factoryName": {
-			"value": "ADFV220201018Test"
+			"value": "ADFV220201018"
 		},
 		"AzureSqlDatabase_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=brownbag2020.database.windows.net;Initial Catalog=IndependenceWorks;User ID=serveradmin142020"
